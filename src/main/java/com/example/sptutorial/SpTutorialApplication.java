@@ -23,5 +23,5 @@ public class SpTutorialApplication {
     public String createStudent(@RequestBody StudentRequest studentReq)
     {
         return String.format("Hello %s and your mail id is %s and your degree is %s", studentReq.Name,studentReq.Email,studentReq.Degree);
-    }   
+    }
 }
